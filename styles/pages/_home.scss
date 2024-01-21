@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.demo {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 10rem 1rem;
+  min-height: 100vh;
+  &_row {
+    margin-top: 2rem;
+  }
+
+  &_box {
+    border: 1px solid rgb(69, 69, 69);
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgba(180, 154, 219, 0.15);
+  }
+}
